@@ -1,0 +1,34 @@
+# PlatformIO build artifacts & cache
+.pio/
+.cache/
+compile_commands.json
+
+# ESP-IDF Component Manager downloaded packages
+# (Managed dependencies are re-downloaded automatically based on dependencies.lock)
+managed_components/
+
+# ESP-IDF generated sdkconfig files (sdkconfig.defaults is the tracked configuration)
+sdkconfig.usb
+sdkconfig.ota
+sdkconfig.old
+sdkconfig
+
+# Editor & IDE configurations
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Operating System temporary files
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+*.bak
+
+# Local credentials & sensitive configurations
+src/config.h
+
+# Internal development notes & agent guidelines
+GEMINI.md
+STATUS_AND_TASKS.md
+

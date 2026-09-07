@@ -1,0 +1,16 @@
+# Zigbee2MQTT configuration.yaml (Snippet)
+# This snippet shows how to configure Zigbee2MQTT to connect to the ESP32-C6 NCP over Wi-Fi.
+
+serial:
+  # The TCP address and port where the ESP32-C6 is running the bridge server
+  # Replace 192.168.x.x with the actual IP address shown on the OLED display.
+  port: tcp://192.168.x.x:8888
+  
+  # For the ESP-Zigbee-SDK NCP, the protocol is based on ZBOSS.
+  # The 'zboss' adapter type is supported in newer Z2M versions (1.34+).
+  adapter: zboss
+
+advanced:
+  # Depending on your setup, you might need to adjust these or keep them default.
+  # baudrate is ignored for TCP connections, but can be specified if Z2M complains.
+  baudrate: 115200
