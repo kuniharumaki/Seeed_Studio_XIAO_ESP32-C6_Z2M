@@ -1,4 +1,4 @@
-# Seeed Studio XIAO ESP32-C6 Zigbee 3.0 Coordinator for Zigbee2MQTT
+<img width="865" height="558" alt="image" src="https://github.com/user-attachments/assets/0ffc35e0-3d6f-4d35-bab1-361ccb271087" /># Seeed Studio XIAO ESP32-C6 Zigbee 3.0 Coordinator for Zigbee2MQTT
 
 Seeed Studio XIAO ESP32-C6（RISC-V 160MHz, 4MB Flash）を活用し、単一の ESP32-C6 上で Wi-Fi と IEEE 802.15.4（Zigbee 3.0 ZBOSS スタック）を同時稼働（Software Coexistence）させ、TCP（ポート 8888）経由で Zigbee2MQTT (Z2M) と通信する「Wi-Fi 接続型 Zigbee コーディネーター」ファームウェアです。
 
@@ -24,6 +24,8 @@ Seeed Studio XIAO ESP32-C6（RISC-V 160MHz, 4MB Flash）を活用し、単一の
 - **Web 診断ダッシュボード (ポート 80)**:
   - メインループから独立した専用タスク（優先度 2）で稼働。Web アクセスが重なっても Zigbee 通信や UI に一切干渉しません。
   - ブラウザから `http://<ESP32_IP>/` を開くだけで、連続稼働時間、ヒープメモリ（現在値/最小値）、Wi-Fi RSSI、Z2M 接続状態、起動要因（PowerOn / Brownout / Task WDT / INT_WDT / Panic 等）、前回の連続稼働時間、直前の実行コマンド/TSN、Flash CoreDump 情報を遠隔確認可能。
+  - <img width="865" height="558" alt="image" src="https://github.com/user-attachments/assets/659689f4-dc7c-4506-80c1-62604a88bfe6" />
+
   - RAW イベントログ表示 (`/logs`) およびリモート再起動 (`/reboot`)、RESTful ステータス API (`/api/status`) を提供。
 - **ArduinoOTA による無線ファームウェア更新**:
   - Wi-Fi 経由でのファームウェア書き込みに対応。設置後に USB ケーブルを接続することなくリモートでファームウェア更新が可能。
