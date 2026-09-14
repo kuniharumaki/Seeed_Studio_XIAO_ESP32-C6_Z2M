@@ -1,4 +1,4 @@
-<img width="865" height="558" alt="image" src="https://github.com/user-attachments/assets/0ffc35e0-3d6f-4d35-bab1-361ccb271087" /># Seeed Studio XIAO ESP32-C6 Zigbee 3.0 Coordinator for Zigbee2MQTT
+# Seeed Studio XIAO ESP32-C6 Zigbee 3.0 Coordinator for Zigbee2MQTT
 
 Seeed Studio XIAO ESP32-C6（RISC-V 160MHz, 4MB Flash）を活用し、単一の ESP32-C6 上で Wi-Fi と IEEE 802.15.4（Zigbee 3.0 ZBOSS スタック）を同時稼働（Software Coexistence）させ、TCP（ポート 8888）経由で Zigbee2MQTT (Z2M) と通信する「Wi-Fi 接続型 Zigbee コーディネーター」ファームウェアです。
 
